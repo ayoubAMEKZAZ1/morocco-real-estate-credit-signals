@@ -1,0 +1,26 @@
+# Configuration of the automatic IPAI dashboards
+window:
+  first_quarter: Q1-2020         # start of the displayed window (as in the Tableau workbook)
+  forecast_horizon: 6            # quarters forecast after the last published quarter
+
+# Differences found between the Tableau workbook (.twb) and its build guide:
+#  - "Global Combo": no Category filter in the sheet -> average of the 4 categories (not "Global");
+#  - "Developer margin": SUM of a FIXED expression repeated over 4 rows per quarter -> spread x4;
+#  - "Seasonality": SUM (not average) over 4 categories x years.
+# false (default) = build-guide method, correct values; true = reproduce the .twb exactly as it is.
+strict_twb_mode: false
+
+default_profile_category: Land   # category shown by default in "Credit product profile"
+seasonality_category: Global     # category used for the seasonal profile
+margin_reference: 0.0            # reference line of "Developer margin" (.twb parameter: 0)
+annotate_q1_2025_break: false    # vertical marker "methodological break Q1-2025" on the time series
+
+signals_csv: data/signals.csv    # qualitative signals (editorial text, review every new quarter)
+signals_written_up_to: Q2-2026   # last quarter the signals text takes into account
+
+outputs:
+  png: true
+  svg: true
+  pdf: true
+  html: true
+  tableau_csv: true

@@ -1,0 +1,61 @@
+pair,leader,target,lead_quarters,n,pearson,spearman,zero_band,notable,sample
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,0,26,0.7058750110750984,0.23221615585111016,0.3922322702763681,False,2020Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,1,25,0.01171841632026791,-0.09041939876684761,0.4,False,2020Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,2,24,-0.18583127570527522,-0.40626363129908694,0.4082482904638631,False,2020Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,3,23,-0.2009864809434281,-0.3420662800515648,0.41702882811414954,False,2020Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,4,22,-0.43642202741865094,-0.07570622677171834,0.42640143271122083,False,2020Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,0,26,-0.04338612436052055,-0.008904122642805242,0.3922322702763681,False,2020Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,1,25,-0.3797364506975969,-0.1753375123675571,0.4,False,2020Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,2,24,-0.5079149838875643,-0.36296382437014985,0.4082482904638631,False,2020Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,3,23,-0.399122456541552,-0.2847953260143136,0.41702882811414954,False,2020Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,4,22,0.16073609330052874,0.19592377507316902,0.42640143271122083,False,2020Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,0,26,-0.03758037717298757,0.21777777777777776,0.3922322702763681,False,2020Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,1,25,-0.0730995979463588,0.2846153846153846,0.4,False,2020Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,2,24,0.19188345037515664,0.48695652173913045,0.4082482904638631,False,2020Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,3,23,0.3349029958284529,0.5079051383399209,0.41702882811414954,False,2020Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,4,22,0.4084360151162589,0.39808018068887635,0.42640143271122083,False,2020Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,0,26,-0.2858623474810359,-0.06908345137249522,0.3922322702763681,False,2020Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,1,25,0.08378467693642244,0.2023855478781355,0.4,False,2020Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,2,24,0.013664567411142041,0.10700305492459891,0.4082482904638631,False,2020Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,3,23,0.008588728221653302,0.05981216746566379,0.41702882811414954,False,2020Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,4,22,-0.05316579196440553,-0.041242944435339095,0.42640143271122083,False,2020Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,0,26,0.5539686603094913,0.14119658119658118,0.3922322702763681,False,2020Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,1,25,0.04541793016875386,-0.12076923076923077,0.4,False,2020Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,2,24,-0.030883121479260887,-0.19304347826086957,0.4082482904638631,False,2020Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,3,23,-0.12795039645344375,-0.18280632411067194,0.41702882811414954,False,2020Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,4,22,-0.05001709034681996,0.017504234895539244,0.42640143271122083,False,2020Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,0,26,-0.5138871287694868,-0.19103064813170437,0.3922322702763681,False,2020Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,1,25,-0.8024499339356359,-0.399846391445686,0.4,False,2020Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,2,24,-0.7940480295177846,-0.5492168613454063,0.4082482904638631,True,2020Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,3,23,-0.4892577809551226,-0.38069381569294947,0.41702882811414954,False,2020Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,4,22,-0.0683471238833541,-0.11768057018633996,0.42640143271122083,False,2020Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,0,18,-0.09554419956614803,0.03099175207452549,0.47140452079103173,False,2022Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,1,17,-0.034403997758515444,-0.03678725400215578,0.48507125007266594,False,2022Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,2,16,-0.11244975692692782,-0.1103753058197363,0.5,False,2022Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,3,15,0.05818173675411968,-0.04110814867583198,0.5163977794943222,False,2022Q1-2026Q2
+Cement deliveries vs property transactions,cement_quarter_yoy,transactions_yoy_Global,4,14,0.4397833671038282,0.3916394009056964,0.5345224838248488,False,2022Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,0,18,-0.017669022247999985,-0.050830559247283885,0.47140452079103173,False,2022Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,1,17,-0.046735407343361936,-0.034525933607519314,0.48507125007266594,False,2022Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,2,16,-0.29480287564907415,-0.3318609565297375,0.5,False,2022Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,3,15,-0.17635011225210856,-0.3117243620926634,0.5163977794943222,False,2022Q1-2026Q2
+Cement deliveries vs property prices,cement_quarter_yoy,price_yoy_Global,4,14,0.08531759011318225,0.03329799865063785,0.5345224838248488,False,2022Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,0,18,0.5366691199428572,0.5892672858617131,0.47140452079103173,True,2022Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,1,17,0.6370892923791325,0.6813725490196079,0.48507125007266594,True,2022Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,2,16,0.7911081835431653,0.6970588235294117,0.5,True,2022Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,3,15,0.6987773962674346,0.5142857142857142,0.5163977794943222,False,2022Q1-2026Q2
+Cement deliveries vs credit to developers,cement_quarter_yoy,credit_property_developers_yoy,4,14,0.4591944612868036,0.2879120879120879,0.5345224838248488,False,2022Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,0,18,-0.06226221749460582,-0.1157025410782285,0.47140452079103173,False,2022Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,1,17,0.261364566278878,0.20478238061200052,0.48507125007266594,False,2022Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,2,16,-0.08319176381199296,-0.17660048931157807,0.5,False,2022Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,3,15,0.042978318021247894,-0.01966041893191964,0.5163977794943222,False,2022Q1-2026Q2
+Credit to developers vs transactions,credit_property_developers_yoy,transactions_yoy_Global,4,14,0.04110200957007402,0.011001106767013944,0.5345224838248488,False,2022Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,0,18,0.09096869082560129,0.08152734778121776,0.47140452079103173,False,2022Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,1,17,-0.11776684495652748,-0.029411764705882353,0.48507125007266594,False,2022Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,2,16,0.45893102148742254,0.26176470588235295,0.5,False,2022Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,3,15,-0.04372945497826877,0.02142857142857143,0.5163977794943222,False,2022Q1-2026Q2
+Housing loans vs residential transactions,credit_housing_yoy,transactions_yoy_Residential,4,14,0.10843432986408248,0.16483516483516483,0.5345224838248488,False,2022Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,0,18,-0.43207169739131124,0.007250177104384706,0.47140452079103173,False,2022Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,1,17,-0.11334419223367993,-0.07753918095857854,0.48507125007266594,False,2022Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,2,16,0.07451180540587243,-0.05469400620892786,0.5,False,2022Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,3,15,-0.1988182840618062,-0.22821655317564896,0.5163977794943222,False,2022Q1-2026Q2
+Housing loans vs residential prices,credit_housing_yoy,price_yoy_Residential,4,14,-0.20217889763976735,-0.14569678422968027,0.5345224838248488,False,2022Q1-2026Q2

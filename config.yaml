@@ -1,0 +1,61 @@
+# ============================ IPAI ETL pipeline: configuration ============================
+paths:
+  pdf_dir: data/pdfs          # bulletin archive (drop existing PDFs here before the first run)
+  cache_dir: data/cache       # per-PDF extraction cache (key = SHA-256), makes runs incremental
+  output_dir: data/output     # final products and diagnostics
+  state_file: state/state.json
+
+schedule:
+  # Monitoring window, in days after the END of the quarter. Observed release dates:
+  # Q2-2026 reported in the press on 2026-08-28 (about day 59); Q1-2026 on 2026-06-22 (about day 83).
+  window_start_day: 40
+  window_end_day: 120
+  check_every_days: 3         # at most one network check every 3 days inside the window
+  first_quarter: Q1-2015      # first quarter of the expected series
+
+http:
+  user_agent: "ipai-open-pipeline/1.0 (+https://github.com/ayoubAMEKZAZ1/morocco-real-estate-credit-signals)"
+  timeout_seconds: 30
+  min_delay_seconds: 5        # minimum delay between two requests (politeness)
+  max_retries: 3
+  backoff_seconds: 10
+  respect_robots_txt: true
+  max_requests_per_check: 12  # hard cap per check
+
+# Sources, tried in order. One is enough to download a bulletin.
+sources:
+  - name: bam_page
+    type: page                # Bank Al-Maghrib HTML page linking to the PDFs
+    enabled: true
+    url: https://www.bkam.ma/fr/Statistiques/Prix/Indice-des-prix-des-actifs-immobiliers
+  - name: ancfcc_pattern
+    type: pattern             # PDFs also hosted by ANCFCC (co-publisher of the IPAI) at a predictable URL
+    enabled: false            # off by default: enable only if you accept this second source
+    url_templates:
+      - "https://www.ancfcc.gov.ma/media/ipai/ipai-t{q}-{year}-fr.pdf"
+
+pdf_validation:
+  min_size_bytes: 50000
+
+quality:
+  max_abs_price_qoq_pct: 10       # above this: anomaly to review
+  max_abs_trans_qoq_pct: 80
+  historical_change_tolerance_pct: 0.5   # tolerated change between two runs on "published" values
+
+publish:
+  enabled: false                  # optional: send each release to your own HTTP API
+  url_env: IPAI_API_URL           # e.g. https://your-server.example/api/v1/ipai/releases
+  key_env: IPAI_API_KEY           # the key is NEVER written in this file or in logs
+  key_header: X-API-Key
+  audience_env: IPAI_AUDIENCE     # optional label the server can use for access control
+  allow_insecure_http: false      # true only for a local test server
+  block_on_errors: true           # ERROR anomalies => no release
+  timeout_seconds: 60
+  max_retries: 3
+
+# Automatic dashboards (same 7 views as the Tableau workbook), see ipai_viz/
+viz:
+  enabled: true
+  config: ipai_viz/viz_config.yaml
+  tableau_dir: null            # folder read by the Tableau workbook: the 4 CSVs are rewritten there
+  include_html_in_publish: false

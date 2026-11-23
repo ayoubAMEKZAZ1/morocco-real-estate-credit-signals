@@ -1,0 +1,32 @@
+year,through_month,cumulative_tonnes,precision,publisher,source_url,note
+2019,3,3573012,exact,APC via Ipsos (cemnet),https://cemnet.com/News/story/168662/morocco-reports-8-drop-in-1q-deliveries.html,Sum of Jan-Mar 2019 monthly deliveries (1177011 + 1117515 + 1278486)
+2019,6,6718000,rounded,APC (cemnet),https://www.CemNet.com/home/tags/APC?page=4,Reported as 6.718 Mt in the H1-2020 release; medias24 reported 6.7 Mt in July 2019
+2019,9,9998398,exact,APC (medias24),https://medias24.com/2019/10/07/apc-hausse-des-livraisons-de-ciment-a-fin-septembre/,
+2019,12,13620000,rounded,APC (aujourdhui.ma),https://aujourdhui.ma/?p=364952,Reported as 13.62 Mt in the December 2020 release
+2020,3,3266542,exact,APC (boursenews),https://boursenews.ma/article/marches/rebond-marque-des-ventes-de-ciment-en-mars,Prior-year figure in the March 2021 release
+2020,6,5473000,rounded,APC (cemnet),https://www.CemNet.com/home/tags/APC?page=4,Reported as 5.473 Mt
+2020,9,8653221,exact,APC (boursenews),https://boursenews.ma/article/marches/les-ventes-de-ciment-ont-augmente-de-12-4-en-septembre,Prior-year figure in the September 2021 release (initial release said 8.683 Mt)
+2020,12,12200000,rounded,APC (aujourdhui.ma),https://aujourdhui.ma/?p=364952,Reported as 12.2 Mt
+2021,3,3394193,exact,APC (boursenews),https://boursenews.ma/article/marches/rebond-marque-des-ventes-de-ciment-en-mars,
+2021,6,6809696,exact,APC via Ipsos (cemnet),https://www.cemnet.com/News/story/172978/morocco-s-cement-deliveries-see-10-drop-in-june.html,Prior-year figure in the June 2022 release
+2021,9,10236567,exact,APC (boursenews),https://boursenews.ma/article/marches/ciment-les-ventes-en-baisse-de-8-33-a-fin-septembre-2022,Prior-year figure in the September 2022 release
+2021,12,13974900,exact,APC (boursenews),https://boursenews.ma/article/marches/le-marche-du-ciment-en-retrait-de-10-65-en-2022,Prior-year figure in the December 2022 release
+2022,3,3428119,exact,APC (medias24),https://medias24.com/2023/04/04/la-consommation-de-ciment-recule-de-526-a-fin-mars/,Prior-year figure in the March 2023 release
+2022,6,6505973,exact,APC via Ipsos (cemnet),https://www.cemnet.com/News/story/172978/morocco-s-cement-deliveries-see-10-drop-in-june.html,
+2022,9,9383457,exact,APC (boursenews),https://boursenews.ma/article/marches/ciment-les-ventes-en-baisse-de-8-33-a-fin-septembre-2022,
+2022,12,12486731,exact,APC (boursenews),https://boursenews.ma/article/marches/le-marche-du-ciment-en-retrait-de-10-65-en-2022,
+2023,3,3247793,exact,APC (medias24),https://medias24.com/2023/04/04/la-consommation-de-ciment-recule-de-526-a-fin-mars/,
+2023,6,6206363,exact,APC (boursenews),https://boursenews.ma/web-tv/detail/marches/ciment-livraisons-juin-2024,Prior-year figure in the June 2024 release
+2023,9,9186490,exact,APC (boursenews),https://boursenews.ma/web-tv/detail/marches/ciment-ventes-septembre-2024-apc,Prior-year figure in the September 2024 release
+2023,12,12510825,exact,APC (hespress),https://fr.hespress.com/404949-404949.html,Prior-year figure in the December 2024 release
+2024,3,3235206,exact,APC (boursenews),https://boursenews.ma/web-tv/detail/marches/ciment-ventes-mars-2024,
+2024,6,6276026,exact,APC (medias24),https://medias24.com/2025/07/03/livraisons-de-ciment-une-hausse-de-pres-de-10-a-fin-juin-2025/,Revised prior-year figure (initial release: 6275999)
+2024,9,9818419,exact,APC (boursenews),https://boursenews.ma/web-tv/detail/marches/ciment-ventes-septembre-2024-apc,
+2024,12,13692752,exact,APC (hespress),https://fr.hespress.com/404949-404949.html,
+2025,3,3381000,rounded,Ministry of Housing (ecoactu),https://ecoactu.ma/ciment-plus-de-338-mt-de-livraisons-a-fin-mars/,Reported as more than 3.38 Mt
+2025,6,6890294,exact,APC (medias24),https://medias24.com/2025/07/03/livraisons-de-ciment-une-hausse-de-pres-de-10-a-fin-juin-2025/,
+2025,9,10860000,rounded,Ministry of Housing (medias24),https://medias24.com/2025/10/03/les-livraisons-de-ciment-progressent-de-125-en-septembre-2025/,Reported as 10.86 Mt
+2025,12,14810000,rounded,Ministry of Housing (hespress),https://fr.hespress.com/457069-ciment-plus-de-1481-mt-de-livraisons-en-2025.html,Reported as more than 14.81 Mt
+2026,3,3011000,rounded,Ministry of Housing (boursenews),https://boursenews.ma/article/marches/Ciments-ventes-mars-2026,Reported as 3.011 Mt
+2026,6,6801900,exact,APC (boursenews),https://boursenews.ma/article/marches/Ciments-ventes-juin-2026,
+2026,9,10990000,rounded,Ministry of Housing (boursenews),https://boursenews.ma/article/marches/ciment-livraisons-septembre-2026,Reported as 10.99 Mt

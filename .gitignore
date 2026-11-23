@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv/
+.env
+data/pdfs/*.pdf
+data/cache/
+data/output/
+data/ipai/legacy/
+state/state.json
